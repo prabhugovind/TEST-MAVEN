@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" verbose="5">
-  <test name="Test">
+  <test name="Test-POM">
     <classes>
+    
+    <class name="testcases.TC01_CreateLead" />
+    <class name="testcases.TC02_EditLead" />
+	<class name="testcases.TC04_MergeLead" />
+
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- Test POM -->
+  <test name="Test-Keyword">
+  <classes>
+    <class name="keyword.RunScripts" />
+    </classes>
+  </test> <!-- Test- Keyword -->
 </suite> <!-- Suite -->
