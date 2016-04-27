@@ -6,7 +6,10 @@
     
     <class name="testcases.TC01_CreateLead" />
     <class name="testcases.TC02_EditLead" />
+    <class name="testcases.TC03_DeleteLead" />
 	<class name="testcases.TC04_MergeLead" />
+	
+	
 
     </classes>
   </test> <!-- Test POM -->
