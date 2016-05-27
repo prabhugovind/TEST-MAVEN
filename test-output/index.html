@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>F:\Selenium Traning\Prabhu\System\SELENIUM\POM\testng.xml</span>
+                    <span>C:\Workspace\For Maven and Jenkins\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,26 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 2 failed,  2 skipped,  1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.TC01_CreateLead" hash-for-method="CreateLeadForOpentaps(DemoSalesManager, crmsfa, Deep, Deepak, Anbarasan, 123456791)">CreateLeadForOpentaps(DemoSalesManager, crmsfa, Deep, Deepak, Anbarasan, 123456791)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.TC02_EditLead" hash-for-method="EditLead(DemoSalesManager, crmsfa, Demo Sales Manager, 10018, Other, Automobile, 10018)">EditLead(DemoSalesManager, crmsfa, Demo Sales Manager, 10018, Other, Automobile, 10018)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">5 methods,  5 skipped,  </span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -121,7 +102,17 @@
                     <div class="method-list-content skipped suite-Suite">
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.TC03_DeleteLead" hash-for-method="DeleteLeadFromRecord(DemoSalesManager, crmsfa, 123456791)">DeleteLeadFromRecord(DemoSalesManager, crmsfa, 123456791)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.TC01_CreateLead" hash-for-method="CreateLeadForOpentaps(DemoSalesManager, crmsfa, Deep, Deepak, Anbarasan, 123456791)">CreateLeadForOpentaps(DemoSalesManager, crmsfa, Deep, Deepak, Anbarasan, 123456791)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.TC03_DeleteLead" hash-for-method="DeleteLeadFromRecord">DeleteLeadFromRecord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.TC02_EditLead" hash-for-method="EditLead">EditLead</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -129,21 +120,12 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.TC04_MergeLead" hash-for-method="MergeLeadTest">MergeLeadTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="keyword.RunScripts" hash-for-method="runScripts">runScripts</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -155,30 +137,23 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">testcases.TC02_EditLead</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="EditLead(DemoSalesManager, crmsfa, Demo Sales Manager, 10018, Other, Automobile, 10018)">
-                  </a> <!-- EditLead(DemoSalesManager, crmsfa, Demo Sales Manager, 10018, Other, Automobile, 10018) -->
+                  <a name="EditLead">
+                  </a> <!-- EditLead -->
                   <span class="method-name">EditLead</span>
-                  <span class="parameters">(DemoSalesManager, crmsfa, Demo Sales Manager, 10018, Other, Automobile, 10018)</span>
-                  <div class="stack-trace">java.lang.RuntimeException: FAILED
-	at utils.Reporter.reportStep(Reporter.java:37)
-	at pages.LoginPage.&lt;init&gt;(LoginPage.java:14)
-	at testcases.TC02_EditLead.EditLead(TC02_EditLead.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+                  <div class="stack-trace">java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:151)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1243)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:992)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1082)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
 	at org.testng.TestRunner.privateRun(TestRunner.java:778)
@@ -201,31 +176,24 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testcases.TC01_CreateLead</span>
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.TC03_DeleteLead</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="CreateLeadForOpentaps(DemoSalesManager, crmsfa, Deep, Deepak, Anbarasan, 123456791)">
-                  </a> <!-- CreateLeadForOpentaps(DemoSalesManager, crmsfa, Deep, Deepak, Anbarasan, 123456791) -->
-                  <span class="method-name">CreateLeadForOpentaps</span>
-                  <span class="parameters">(DemoSalesManager, crmsfa, Deep, Deepak, Anbarasan, 123456791)</span>
-                  <div class="stack-trace">java.lang.RuntimeException: FAILED
-	at utils.Reporter.reportStep(Reporter.java:37)
-	at pages.LoginPage.&lt;init&gt;(LoginPage.java:14)
-	at testcases.TC01_CreateLead.CreateLeadForOpentaps(TC01_CreateLead.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+                  <a name="DeleteLeadFromRecord">
+                  </a> <!-- DeleteLeadFromRecord -->
+                  <span class="method-name">DeleteLeadFromRecord</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:151)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1243)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:992)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1082)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
 	at org.testng.TestRunner.privateRun(TestRunner.java:778)
@@ -248,7 +216,7 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
@@ -292,22 +260,6 @@
           <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">testcases.TC03_DeleteLead</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="DeleteLeadFromRecord(DemoSalesManager, crmsfa, 123456791)">
-                  </a> <!-- DeleteLeadFromRecord(DemoSalesManager, crmsfa, 123456791) -->
-                  <span class="method-name">DeleteLeadFromRecord</span>
-                  <span class="parameters">(DemoSalesManager, crmsfa, 123456791)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">keyword.RunScripts</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -319,11 +271,27 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.TC01_CreateLead</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateLeadForOpentaps(DemoSalesManager, crmsfa, Deep, Deepak, Anbarasan, 123456791)">
+                  </a> <!-- CreateLeadForOpentaps(DemoSalesManager, crmsfa, Deep, Deepak, Anbarasan, 123456791) -->
+                  <span class="method-name">CreateLeadForOpentaps</span>
+                  <span class="parameters">(DemoSalesManager, crmsfa, Deep, Deepak, Anbarasan, 123456791)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">F:\Selenium Traning\Prabhu\System\SELENIUM\POM\testng.xml</span>
+            <span class="header-content">C:\Workspace\For Maven and Jenkins\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -385,30 +353,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'runScripts')
-data.setCell(0, 2, 'keyword.RunScripts')
-data.setCell(0, 3, 5720);
+data.setCell(0, 1, 'CreateLeadForOpentaps')
+data.setCell(0, 2, 'testcases.TC01_CreateLead')
+data.setCell(0, 3, 6);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'CreateLeadForOpentaps')
-data.setCell(1, 2, 'testcases.TC01_CreateLead')
-data.setCell(1, 3, 362);
+data.setCell(1, 1, 'runScripts')
+data.setCell(1, 2, 'keyword.RunScripts')
+data.setCell(1, 3, 6);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'EditLead')
-data.setCell(2, 2, 'testcases.TC02_EditLead')
-data.setCell(2, 3, 261);
+data.setCell(2, 1, 'DeleteLeadFromRecord')
+data.setCell(2, 2, 'testcases.TC03_DeleteLead')
+data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'DeleteLeadFromRecord')
-data.setCell(3, 2, 'testcases.TC03_DeleteLead')
-data.setCell(3, 3, 1);
+data.setCell(3, 1, 'MergeLeadTest')
+data.setCell(3, 2, 'testcases.TC04_MergeLead')
+data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'MergeLeadTest')
-data.setCell(4, 2, 'testcases.TC04_MergeLead')
+data.setCell(4, 1, 'EditLead')
+data.setCell(4, 2, 'testcases.TC02_EditLead')
 data.setCell(4, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 12 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -440,7 +408,7 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testcases.TC04_MergeLead</span>
+              <span class="ignored-class-name">testcases.TC03_DeleteLead</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">afterSuite</span>
                 <br/>
@@ -453,7 +421,7 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testcases.TC03_DeleteLead</span>
+              <span class="ignored-class-name">testcases.TC04_MergeLead</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">afterSuite</span>
                 <br/>
@@ -483,95 +451,43 @@ return data;
               <div class="chronological-class-name">testcases.TC01_CreateLead</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">501 ms</span>
+                <span class="method-start">1100 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">startTestCase</span>
-                <span class="method-start">521 ms</span>
+                <span class="method-start">1111 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">1891 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
                 <img src="failed.png">
                 </img>
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">2389 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
                 <span class="method-name">CreateLeadForOpentaps(DemoSalesManager, crmsfa, Deep, Deepak, Anbarasan, 123456791)</span>
-                <span class="method-start">7864 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">8229 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC02_EditLead</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">startTestCase</span>
-                <span class="method-start">9741 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">9834 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">EditLead(DemoSalesManager, crmsfa, Demo Sales Manager, 10018, Other, Automobile, 10018)</span>
-                <span class="method-start">14155 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">14418 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC03_DeleteLead</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">startTestCase</span>
-                <span class="method-start">15364 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">15393 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">DeleteLeadFromRecord(DemoSalesManager, crmsfa, 123456791)</span>
-                <span class="method-start">24898 ms</span>
+                <span class="method-start">19192 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">keyword.RunScripts</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">24988 ms</span>
+                <span class="method-start">19327 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">startTestCase</span>
-                <span class="method-start">24989 ms</span>
+                <span class="method-start">19328 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">24990 ms</span>
+                <span class="method-start">19329 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">runScripts</span>
-                <span class="method-start">29432 ms</span>
+                <span class="method-start">23121 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">35156 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">36177 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-suite after">
-                <span class="method-name">afterSuite</span>
-                <span class="method-start">36182 ms</span>
-              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

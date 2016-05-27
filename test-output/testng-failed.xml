@@ -5,44 +5,55 @@
     <classes>
       <class name="testcases.TC02_EditLead">
         <methods>
-          <include name="startTestCase"/>
-          <include name="beforeMethod"/>
-          <include name="EditLead" invocation-numbers="0"/>
-          <include name="afterMethod"/>
+          <include name="EditLead"/>
         </methods>
       </class> <!-- testcases.TC02_EditLead -->
+      <class name="testcases.TC03_DeleteLead">
+        <methods>
+          <include name="DeleteLeadFromRecord"/>
+        </methods>
+      </class> <!-- testcases.TC03_DeleteLead -->
       <class name="testcases.TC04_MergeLead">
         <methods>
           <include name="MergeLeadTest"/>
         </methods>
       </class> <!-- testcases.TC04_MergeLead -->
-      <class name="testcases.TC01_CreateLead">
-        <methods>
-          <include name="startTestCase"/>
-          <include name="beforeMethod"/>
-          <include name="CreateLeadForOpentaps" invocation-numbers="0"/>
-          <include name="afterMethod"/>
-          <include name="beforeTest"/>
-        </methods>
-      </class> <!-- testcases.TC01_CreateLead -->
-      <class name="testcases.TC03_DeleteLead">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="startTestCase"/>
-          <include name="DeleteLeadFromRecord"/>
-        </methods>
-      </class> <!-- testcases.TC03_DeleteLead -->
       <class name="keyword.RunScripts">
         <methods>
           <include name="beforeMethod"/>
-          <include name="afterSuite"/>
-          <include name="afterMethod"/>
           <include name="beforeTest"/>
-          <include name="afterTest"/>
           <include name="beforeSuite"/>
           <include name="startTestCase"/>
         </methods>
       </class> <!-- keyword.RunScripts -->
+      <class name="testcases.TC01_CreateLead">
+        <methods>
+          <include name="startTestCase"/>
+          <include name="beforeMethod"/>
+          <include name="CreateLeadForOpentaps"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcases.TC01_CreateLead -->
     </classes>
   </test> <!-- Test-POM(failed) -->
+  <test name="Test-Keyword(failed)">
+    <classes>
+      <class name="keyword.RunScripts">
+        <methods>
+          <include name="runScripts"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="startTestCase"/>
+        </methods>
+      </class> <!-- keyword.RunScripts -->
+      <class name="testcases.TC01_CreateLead">
+        <methods>
+          <include name="startTestCase"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcases.TC01_CreateLead -->
+    </classes>
+  </test> <!-- Test-Keyword(failed) -->
 </suite> <!-- Failed suite [Suite] -->

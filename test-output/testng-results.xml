@@ -1,75 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="2" total="5" passed="1">
+<testng-results skipped="5" failed="0" total="5" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="35678" started-at="2016-05-27T03:30:32Z" finished-at="2016-05-27T03:31:08Z">
+  <suite name="Suite" duration-ms="22056" started-at="2016-05-27T19:29:20Z" finished-at="2016-05-27T19:29:42Z">
     <groups>
     </groups>
-    <test name="Test-POM" duration-ms="24413" started-at="2016-05-27T03:30:32Z" finished-at="2016-05-27T03:30:56Z">
+    <test name="Test-POM" duration-ms="18164" started-at="2016-05-27T19:29:20Z" finished-at="2016-05-27T19:29:38Z">
       <class name="testcases.TC02_EditLead">
-        <test-method status="PASS" signature="startTestCase()[pri:0, instance:testcases.TC02_EditLead@1deb50e]" name="startTestCase" is-config="true" duration-ms="1" started-at="2016-05-27T09:00:41Z" finished-at="2016-05-27T09:00:41Z">
+        <test-method status="SKIP" signature="startTestCase()[pri:0, instance:testcases.TC02_EditLead@bca1e0]" name="startTestCase" is-config="true" duration-ms="0" started-at="2016-05-28T00:59:38Z" finished-at="2016-05-28T00:59:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestCase -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC02_EditLead@1deb50e]" name="beforeMethod" is-config="true" duration-ms="4321" started-at="2016-05-27T09:00:41Z" finished-at="2016-05-27T09:00:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="EditLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC02_EditLead@1deb50e]" name="EditLead" duration-ms="261" started-at="2016-05-27T09:00:46Z" data-provider="fetchData" finished-at="2016-05-27T09:00:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DemoSalesManager]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[crmsfa]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Demo Sales Manager]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10018]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Other]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Automobile]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[10018]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[FAILED]]>
-            </message>
+        <test-method status="SKIP" signature="EditLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC02_EditLead@bca1e0]" name="EditLead" duration-ms="0" started-at="2016-05-28T00:59:38Z" data-provider="fetchData" finished-at="2016-05-28T00:59:38Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: FAILED
-	at utils.Reporter.reportStep(Reporter.java:37)
-	at pages.LoginPage.<init>(LoginPage.java:14)
-	at testcases.TC02_EditLead.EditLead(TC02_EditLead.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+              <![CDATA[java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:151)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1243)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:992)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1082)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
 	at org.testng.TestRunner.privateRun(TestRunner.java:778)
@@ -89,116 +39,21 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditLead -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC02_EditLead@1deb50e]" name="afterMethod" is-config="true" duration-ms="946" started-at="2016-05-27T09:00:46Z" finished-at="2016-05-27T09:00:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
       </class> <!-- testcases.TC02_EditLead -->
       <class name="testcases.TC01_CreateLead">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC01_CreateLead@16c48ac]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-05-27T09:00:32Z" finished-at="2016-05-27T09:00:32Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC01_CreateLead@32be31]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-05-28T00:59:20Z" finished-at="2016-05-28T00:59:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="startTestCase()[pri:0, instance:testcases.TC01_CreateLead@16c48ac]" name="startTestCase" is-config="true" duration-ms="1" started-at="2016-05-27T09:00:32Z" finished-at="2016-05-27T09:00:32Z">
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:testcases.TC01_CreateLead@32be31]" name="startTestCase" is-config="true" duration-ms="0" started-at="2016-05-28T00:59:20Z" finished-at="2016-05-28T00:59:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestCase -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC01_CreateLead@16c48ac]" name="beforeMethod" is-config="true" duration-ms="5973" started-at="2016-05-27T09:00:33Z" finished-at="2016-05-27T09:00:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="CreateLeadForOpentaps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC01_CreateLead@16c48ac]" name="CreateLeadForOpentaps" duration-ms="362" started-at="2016-05-27T09:00:39Z" data-provider="fetchData" finished-at="2016-05-27T09:00:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DemoSalesManager]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[crmsfa]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Deep]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Deepak]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Anbarasan]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[123456791]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[FAILED]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: FAILED
-	at utils.Reporter.reportStep(Reporter.java:37)
-	at pages.LoginPage.<init>(LoginPage.java:14)
-	at testcases.TC01_CreateLead.CreateLeadForOpentaps(TC01_CreateLead.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateLeadForOpentaps -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC01_CreateLead@16c48ac]" name="afterMethod" is-config="true" duration-ms="1510" started-at="2016-05-27T09:00:40Z" finished-at="2016-05-27T09:00:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:testcases.TC01_CreateLead@16c48ac]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-27T09:00:56Z" finished-at="2016-05-27T09:00:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- testcases.TC01_CreateLead -->
-      <class name="testcases.TC03_DeleteLead">
-        <test-method status="PASS" signature="startTestCase()[pri:0, instance:testcases.TC03_DeleteLead@19963d8]" name="startTestCase" is-config="true" duration-ms="1" started-at="2016-05-27T09:00:47Z" finished-at="2016-05-27T09:00:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTestCase -->
-        <test-method status="FAIL" signature="beforeMethod()[pri:0, instance:testcases.TC03_DeleteLead@19963d8]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-05-27T09:00:47Z" finished-at="2016-05-27T09:00:47Z">
+        <test-method status="FAIL" signature="beforeMethod()[pri:0, instance:testcases.TC01_CreateLead@32be31]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-05-28T00:59:21Z" finished-at="2016-05-28T00:59:21Z">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[FAILED]]>
@@ -241,7 +96,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="DeleteLeadFromRecord(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC03_DeleteLead@19963d8]" name="DeleteLeadFromRecord" duration-ms="1" started-at="2016-05-27T09:00:56Z" data-provider="fetchData" finished-at="2016-05-27T09:00:56Z">
+        <test-method status="SKIP" signature="CreateLeadForOpentaps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC01_CreateLead@32be31]" name="CreateLeadForOpentaps" duration-ms="6" started-at="2016-05-28T00:59:38Z" data-provider="fetchData" finished-at="2016-05-28T00:59:38Z">
           <params>
             <param index="0">
               <value>
@@ -255,24 +110,81 @@
             </param>
             <param index="2">
               <value>
+                <![CDATA[Deep]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Deepak]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Anbarasan]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
                 <![CDATA[123456791]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DeleteLeadFromRecord -->
-        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:testcases.TC03_DeleteLead@19963d8]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-05-27T09:00:56Z" finished-at="2016-05-27T09:00:56Z">
+        </test-method> <!-- CreateLeadForOpentaps -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:testcases.TC01_CreateLead@32be31]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-05-28T00:59:38Z" finished-at="2016-05-28T00:59:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- testcases.TC03_DeleteLead -->
-      <class name="testcases.TC04_MergeLead">
-        <test-method status="SKIP" signature="startTestCase()[pri:0, instance:testcases.TC04_MergeLead@bbfa04]" name="startTestCase" is-config="true" duration-ms="0" started-at="2016-05-27T09:00:56Z" finished-at="2016-05-27T09:00:56Z">
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:testcases.TC01_CreateLead@32be31]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-28T00:59:38Z" finished-at="2016-05-28T00:59:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC01_CreateLead -->
+      <class name="testcases.TC03_DeleteLead">
+        <test-method status="SKIP" signature="startTestCase()[pri:0, instance:testcases.TC03_DeleteLead@286778]" name="startTestCase" is-config="true" duration-ms="0" started-at="2016-05-28T00:59:38Z" finished-at="2016-05-28T00:59:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestCase -->
-        <test-method status="SKIP" signature="MergeLeadTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC04_MergeLead@bbfa04]" name="MergeLeadTest" duration-ms="0" started-at="2016-05-27T09:00:56Z" data-provider="fetchData" finished-at="2016-05-27T09:00:56Z">
+        <test-method status="SKIP" signature="DeleteLeadFromRecord(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC03_DeleteLead@286778]" name="DeleteLeadFromRecord" duration-ms="0" started-at="2016-05-28T00:59:38Z" data-provider="fetchData" finished-at="2016-05-28T00:59:38Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:151)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1243)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:992)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1082)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteLeadFromRecord -->
+      </class> <!-- testcases.TC03_DeleteLead -->
+      <class name="testcases.TC04_MergeLead">
+        <test-method status="SKIP" signature="startTestCase()[pri:0, instance:testcases.TC04_MergeLead@9ba398]" name="startTestCase" is-config="true" duration-ms="0" started-at="2016-05-28T00:59:38Z" finished-at="2016-05-28T00:59:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="SKIP" signature="MergeLeadTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC04_MergeLead@9ba398]" name="MergeLeadTest" duration-ms="0" started-at="2016-05-28T00:59:38Z" data-provider="fetchData" finished-at="2016-05-28T00:59:38Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -306,37 +218,76 @@
         </test-method> <!-- MergeLeadTest -->
       </class> <!-- testcases.TC04_MergeLead -->
     </test> <!-- Test-POM -->
-    <test name="Test-Keyword" duration-ms="11192" started-at="2016-05-27T03:30:56Z" finished-at="2016-05-27T03:31:08Z">
+    <test name="Test-Keyword" duration-ms="3827" started-at="2016-05-27T19:29:38Z" finished-at="2016-05-27T19:29:42Z">
       <class name="keyword.RunScripts">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:keyword.RunScripts@102b3b1]" name="beforeSuite" is-config="true" duration-ms="499" started-at="2016-05-27T09:00:31Z" finished-at="2016-05-27T09:00:32Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:keyword.RunScripts@1c79255]" name="beforeSuite" is-config="true" duration-ms="1095" started-at="2016-05-28T00:59:19Z" finished-at="2016-05-28T00:59:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:keyword.RunScripts@102b3b1]" name="beforeTest" is-config="true" duration-ms="1" started-at="2016-05-27T09:00:56Z" finished-at="2016-05-27T09:00:56Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:keyword.RunScripts@1c79255]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-05-28T00:59:38Z" finished-at="2016-05-28T00:59:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="startTestCase()[pri:0, instance:keyword.RunScripts@102b3b1]" name="startTestCase" is-config="true" duration-ms="0" started-at="2016-05-27T09:00:56Z" finished-at="2016-05-27T09:00:56Z">
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:keyword.RunScripts@1c79255]" name="startTestCase" is-config="true" duration-ms="0" started-at="2016-05-28T00:59:38Z" finished-at="2016-05-28T00:59:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestCase -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:keyword.RunScripts@102b3b1]" name="beforeMethod" is-config="true" duration-ms="4442" started-at="2016-05-27T09:00:56Z" finished-at="2016-05-27T09:01:01Z">
+        <test-method status="FAIL" signature="beforeMethod()[pri:0, instance:keyword.RunScripts@1c79255]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-05-28T00:59:38Z" finished-at="2016-05-28T00:59:38Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:37)
+	at wrappers.GenericWrappers.invokeApp(GenericWrappers.java:82)
+	at wrappers.OpentapsWrappers.beforeMethod(OpentapsWrappers.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="runScripts()[pri:0, instance:keyword.RunScripts@102b3b1]" name="runScripts" duration-ms="5720" started-at="2016-05-27T09:01:01Z" finished-at="2016-05-27T09:01:07Z">
+        <test-method status="SKIP" signature="runScripts()[pri:0, instance:keyword.RunScripts@1c79255]" name="runScripts" duration-ms="6" started-at="2016-05-28T00:59:42Z" finished-at="2016-05-28T00:59:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScripts -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:keyword.RunScripts@102b3b1]" name="afterMethod" is-config="true" duration-ms="1021" started-at="2016-05-27T09:01:07Z" finished-at="2016-05-27T09:01:08Z">
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:keyword.RunScripts@1c79255]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-05-28T00:59:42Z" finished-at="2016-05-28T00:59:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:keyword.RunScripts@102b3b1]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-27T09:01:08Z" finished-at="2016-05-27T09:01:08Z">
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:keyword.RunScripts@1c79255]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-28T00:59:42Z" finished-at="2016-05-28T00:59:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:keyword.RunScripts@102b3b1]" name="afterSuite" is-config="true" duration-ms="337" started-at="2016-05-27T09:01:08Z" finished-at="2016-05-27T09:01:08Z">
+        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:keyword.RunScripts@1c79255]" name="afterSuite" is-config="true" duration-ms="0" started-at="2016-05-28T00:59:42Z" finished-at="2016-05-28T00:59:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
