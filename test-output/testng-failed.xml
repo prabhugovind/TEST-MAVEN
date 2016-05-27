@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]">
+  <test name="Test-POM(failed)">
+    <classes>
+      <class name="testcases.TC02_EditLead">
+        <methods>
+          <include name="startTestCase"/>
+          <include name="beforeMethod"/>
+          <include name="EditLead" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testcases.TC02_EditLead -->
+      <class name="testcases.TC04_MergeLead">
+        <methods>
+          <include name="MergeLeadTest"/>
+        </methods>
+      </class> <!-- testcases.TC04_MergeLead -->
+      <class name="testcases.TC01_CreateLead">
+        <methods>
+          <include name="startTestCase"/>
+          <include name="beforeMethod"/>
+          <include name="CreateLeadForOpentaps" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcases.TC01_CreateLead -->
+      <class name="testcases.TC03_DeleteLead">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="startTestCase"/>
+          <include name="DeleteLeadFromRecord"/>
+        </methods>
+      </class> <!-- testcases.TC03_DeleteLead -->
+      <class name="keyword.RunScripts">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="startTestCase"/>
+        </methods>
+      </class> <!-- keyword.RunScripts -->
+    </classes>
+  </test> <!-- Test-POM(failed) -->
+</suite> <!-- Failed suite [Suite] -->
